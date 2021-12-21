@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: gmall-gateway
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        namespace: a6a85096-7c69-48bc-b400-afb05f2ae14e
+        group: dev
+        file-extension: yml
